@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford | The Education Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/4156f80b1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>World biggest university</h1>
+        <p>As the world's largest university, we offer an unparalleled scale and diversity of educational opportunities. With thousands of degree programs, courses, and specializations, there is something for everyone here. Whether you're interested in the arts, sciences, business, engineering, or any other field, our vast array of faculties and departments ensures that you'll find your perfect fit.</p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+            
+    </div>
+    
+    
+    
+    </section>
+    <section class="course">
+        <h1>Cousrses we Offer</h1>
+        <p>At our university, we understand that every student is unique, with different interests and aspirations. That's why we offer an extensive range of academic programs across various disciplines. Whether you're passionate about science, humanities, arts, business, or technology, you'll find comprehensive courses and cutting-edge research opportunities that cater to your individual ambitions.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate-level courses offer a perfect blend of academic rigor and personal growth, preparing students for the challenges that lie ahead. With a wide range of specialized academic programs, we empower our students to pursue their passions and interests.
+
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Our degree programs are designed to equip students with the knowledge, skills, and experiences needed to excel in their chosen fields and make a positive impact on society. We take pride in offering a wide array of accredited undergraduate and postgraduate degree options, spanning disciplines like engineering, humanities, social sciences, business, and more.  </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Our postgraduate offerings cater to individuals seeking to deepen their expertise, advance their careers, and contribute significantly to their respective fields. With a diverse range of specialized master's and doctoral programs, you'll have the opportunity to engage with cutting-edge research, collaborate with distinguished faculty, and immerse yourself in a dynamic and intellectually stimulating environment
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our global campus</h1>
+        <p>Welcome to Our Campus! Our campus is a vibrant and inclusive community, buzzing with energy and opportunities for growth. Nestled in the heart, our sprawling campus offers a perfect blend of modern facilities and green spaces, creating an ideal environment for learning, exploration, and personal development.</p>
+
+        <div class="row">
+            
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The World's Biggest University boasts an impressive faculty consisting of renowned experts and scholars in their respective fields. Our faculty members are dedicated to providing top-quality education and mentorship, ensuring that our students receive the best guidance throughout their academic journey. Additionally, our state-of-the-art facilities, including cutting-edge research labs, libraries, and sports complexes, enable students to excel both academically and personally.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lib.png">
+                <h3>World Class Library</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play ground</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy food</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="testimonials">
+        <h1>What our students Says</h1>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>“Thanks to Eduford, I was able to complete my degree online and advance my career. The flexibility and quality of education exceeded my expectations.” - Nora Rodriguez</p>
+                    <h3>Shivangi Garg</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>"The variety of courses and programs on Eduford is amazing. I've been able to explore different subjects and discover new passions." </p>
+                    <h3>Nikhil Garg</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll for various online courses<br>Anywhere from the world</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer header-bt">
+        <h4>About Us</h4>
+        <p>Nikhil Garg <br>Email - nikhil.garg43@gmail.com<br>Phone No - 9871170625</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
